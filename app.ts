@@ -90,3 +90,16 @@ let finalValue = "A String",
   if (typeof finalvalue == "number") {
     console.log("Final vaue is a number") 
   }
+
+// never type 
+function neverReturns():never { 
+  throw new Error('An error yo!')
+}
+
+// Nullable Types 
+let canBeNull = 12; 
+canBeNull = null; 
+let canAlsoBeNull; 
+canAlsoBeNull = null; 
+
+
