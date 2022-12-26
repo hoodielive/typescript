@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // project options
+    "lib": [
+      "ESNext",
+      "dom"
+    ], // specifies default set of type definitions to use ("DOM", "ES6")
+    "outDir": "lib",
+    "removeComments": true,
+    "target": "ES6",
+
+    // Module Resolution
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {},
+
+    // Source Map
+    "sourceMap": true,
+    "sourceRoot": "/",
+
+    // Strict Checks
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    // Linter Checks
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}
