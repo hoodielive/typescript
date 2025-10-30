@@ -1,24 +1,28 @@
-function calculateArea(width: number, height: number): number
-{
-  return height * height;
+const log = console.log
+
+function calculateArea(width: number, height: number): number {
+  return width * height * height;
 }
-function greet(name: string): String 
-{
+
+function greet(name: string): String {
   return `Hello, ${name}!`;
 }
 
 let scores: Array<number> = [95, 87, 92, 78];
 let cities: Array<string> = ["New York", "London", "Tokyo"];
 
-cities.push("Omarchy");
+cities.push("Hell");
 
-console.log(cities);
+log(cities);
 
 let person: { name: string; age: number; isEmployed: boolean } =
 {
-  name: "Sarah",
+  name: "Osa",
   age: 28,
   isEmployed: true,
 };
 
-console.log(person);
+log(person);
+
+
+
