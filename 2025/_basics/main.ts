@@ -1,8 +1,9 @@
-function calculateArea(width: number, height: number): number
+function _calculateArea(width: number, height: number): number
 {
   return height * height;
 }
-function greet(name: string): String 
+
+function greet(name: string): string 
 {
   return `Hello, ${name}!`;
 }
@@ -14,11 +15,16 @@ cities.push("Omarchy");
 
 console.log(cities);
 
-let person: { name: string; age: number; isEmployed: boolean } =
+type Person = 
+{
+  name: string, 
+  age: number, 
+  isEmployed?: boolean,
+}
+const _person: Person =
 {
   name: "Sarah",
   age: 28,
-  isEmployed: true,
 };
 
-console.log(person);
+console.log(_person);
